@@ -14,7 +14,7 @@ describe('User (e2e)', () => {
   );
 
   const createUserResponse = {
-    id: '12343242342',
+    id: 'ca7b91c5-b825-482b-9b8b-af9c538bd1fe',
     firstName: 'Dave',
     lastName: 'Nothere',
     email: 'dave@nothere.com',
@@ -29,7 +29,7 @@ describe('User (e2e)', () => {
   );
 
   const updatedUserResponse = {
-    id: '12343242342',
+    id: 'ca7b91c5-b825-482b-9b8b-af9c538bd1fe',
     firstName: 'Bill',
     lastName: 'Nothere',
     email: 'bill@nothere.com',

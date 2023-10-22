@@ -7,7 +7,7 @@ import { User } from './entities/user.entity';
 export class UserService {
   create(createUserDto: CreateUserDto): User {
     return new User(
-      '12343242342',
+      'ca7b91c5-b825-482b-9b8b-af9c538bd1fe',
       createUserDto.firstName,
       createUserDto.lastName,
       createUserDto.email,
@@ -15,7 +15,14 @@ export class UserService {
   }
 
   findAll(): User[] {
-    return [new User('12343242342', 'Dave', 'Nothere', 'dave@nothere.com')];
+    return [
+      new User(
+        'ca7b91c5-b825-482b-9b8b-af9c538bd1fe',
+        'Dave',
+        'Nothere',
+        'dave@nothere.com',
+      ),
+    ];
   }
 
   findOne(id: string): User {
